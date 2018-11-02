@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+    <Button
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:layout_width="match_parent"
+        android:id="@+id/button_so"
+        android:text="gdrive"
+        android:linksClickable="true"
+        android:onClick="goTo1"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="youtube"
+        android:autoLink="web"
+        android:clickable="true"
+        android:id="@+id/button_su"
+        android:onClick="goTo2"/>
+</LinearLayout>
